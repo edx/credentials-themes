@@ -14,8 +14,8 @@ jobs:
    call-upgrade-python-requirements-workflow:
     with:
        branch: ${{ github.event.inputs.branch || 'master' }}
-       team_reviewers: "2u-aperture"
-       email_address: aperture@2u-internal.opsgenie.net
+       # team_reviewers: ""
+       # email_address: ""
        send_success_notification: false
     secrets:
        requirements_bot_github_token: ${{ secrets.REQUIREMENTS_BOT_GITHUB_TOKEN }}

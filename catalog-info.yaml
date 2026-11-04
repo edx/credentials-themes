@@ -20,5 +20,5 @@ metadata:
 spec:
   type: 'library'
   lifecycle: 'production'
-  owner: 2U-aperture
+  owner: group:openedx-unmaintained
 # (Optional) An array of different components or resources.
